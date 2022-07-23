@@ -116,3 +116,22 @@ ol {display: table; margin-left: 0; margin-right: auto; list-style-position: ins
 .topp {padding-top: 10px;}
 .left {padding-left: 30px}
 .mediumsize {font-size: 19px;}
+
+
+/* -------- FLEXBOX_BLOG_ENTRY_LAYOUTS ---------- */
+.sixpanel {
+  align-items: stretch;
+  /* flex-flow: row nowrap; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.sixpanel > div {
+  border: 1px solid #c9ff23;
+  
+}
